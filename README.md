@@ -8,7 +8,7 @@ Dribbble API Package for Laravel
 Begin by installing this package through Composer. Edit your project's `composer.json` file to require `devdojo/dribbble`.
 
 	"require": {
-		"devdojo/dribbble": "dev-master""
+		"devdojo/dribbble": "dev-master"
 	}
 
 Next, update Composer from the Terminal:
