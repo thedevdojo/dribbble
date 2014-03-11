@@ -1,7 +1,7 @@
-dribbble
+Dribbble API
 ========
 
-Dribbble API Package for Laravel
+A Dribbble API Package for Laravel
 
 ## Installation
 
