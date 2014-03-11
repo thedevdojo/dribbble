@@ -20,3 +20,21 @@ Once this operation completes, the final step is to add the service provider. Op
     'Devdojo\Dribbble\DribbbleServiceProvider',
 
 That's it! You're all set to go.
+
+## Usage
+
+Here's an example of how to get the most popular shots and display them on the screen.
+
+```php
+<?php $List = Dribbble::getShotsList('popular'); ?>
+
+@foreach($List->shots as $shot)
+
+	<img  src="{{ $shot->image_url }}" /><br />
+	
+@endforeach
+```
+
+For further info on using the dribble API, be sure to checkout: http://dribbble.com/api
+
+Hope you enjoy :)
